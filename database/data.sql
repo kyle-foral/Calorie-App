@@ -9,3 +9,7 @@
 --      ('Learn to code', false),
 --      ('Build projects', false),
 --      ('Get a job', false);
+
+-- insert into "food" ("name", "calories", "dayOfWeek", "week", "apiDetails")
+-- values
+--     ('orange', 70, 1, 1, 'extra')
