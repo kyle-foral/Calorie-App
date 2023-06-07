@@ -13,8 +13,8 @@ CREATE TABLE "public"."food" (
 	"dayOfWeek"   integer     NOT NULL,
 	"week"        integer     NOT NULL,
 	"apiDetails"  TEXT        NOT NULL,
-	"createdAt"   timestamptz NOT NULL,
-	"updatedAt"   timestamptz NOT NULL,
+	"createdAt"   timestamptz NOT NULL DEFAULT NOW(),
+	"updatedAt"   timestamptz NOT NULL DEFAULT NOW(),
 	CONSTRAINT "food_pk" PRIMARY KEY ("foodId")
 ) WITH (
   OIDS=FALSE
