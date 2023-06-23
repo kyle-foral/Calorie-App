@@ -1,0 +1,246 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.footer-display {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calendar,
+.calculator,
+.add-icon {
+  padding: 10px;
+  font-size: 80px;
+}
+
+.footer-display a {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+header,
+footer {
+  background-color: lightsalmon;
+}
+
+header.row {
+  padding: 0 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.meal-exercise-cancel-submit-calorie-calc {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.meal-exercise-cancel-submit button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.meal-exercise-cancel-submit a {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.calorie-calculator {
+  text-align: center;
+  padding: 50px 50px 0 0;
+}
+
+.calorie-calculator div {
+  margin: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calorie-calculator label {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.calorie-calculator input,
+.calorie-calculator select {
+  font-size: 25px;
+  border-radius: 10px;
+  width: 900px;
+  height: 40px;
+}
+
+.sign-up-sign-in-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 100px auto;
+}
+
+.sign-up-sign-in {
+  text-align: center;
+}
+
+.sign-up-sign-in h2 {
+  font-size: 60px;
+  margin-top: 100px;
+}
+
+.sign-up-sign-in-name,
+.sign-up-sign-in-password {
+  border-style: solid;
+  border-color: #4682b4;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 40px;
+  width: 610px;
+  margin: 0 10px 50px 0;
+}
+
+.sign-up-sign-in-cancel-submit {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sign-up-sign-in-cancel-submit button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.sign-up-sign-in-cancel-submit a {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.day-select {
+  border-style: solid;
+  border-color: #4682b4;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.week-select {
+  border-style: solid;
+  border-color: #4682b4;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.create-new-meal h2 {
+  font-size: 40px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.create-new-meal-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 100px auto;
+}
+
+.meal-description {
+  border-style: solid;
+  border-color: #4682b4;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.meal-exercise-cancel-submit {
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.days-buttons {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.days-buttons button {
+  font-size: 15px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 25px;
+  color: black;
+}
+
+.header-row button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.mealEdit {
+  display: flex;
+  justify-content: flex-end;
+  color: blue;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.row-meal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-item {
+  color: red;
+  cursor: pointer;
+  margin-left: 25px;
+}

@@ -1,18 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './layout.css';
 
 export default function Footer() {
   return (
     <>
       <footer>
-        <div className="footer-displayer">
+        <div className="footer-display">
           <div className="calendar">
-            <i className="fa fa-calendar-alt" />
+            <Link to="/"> Home </Link>
           </div>
-          <div className="calclator">
-            <i className="fa fa-calculator" />
+          <div className="calculator">
+            <Link to="calculator"> Calculator </Link>
           </div>
-          <div classsName="add-icon">
-            <i className="fa fa-plus" />
+          <div className="add-icon">
+            <Link to="add-meal"> Add Meal </Link>
           </div>
         </div>
       </footer>
