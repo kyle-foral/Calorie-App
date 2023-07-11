@@ -27,10 +27,8 @@ export default function Calendar() {
   const show = displayed.map((a) => (
     <li key={a.foodId} className="row-meal">
       {a.mealDescription}
-      <div
-        className="mealEdit"
-        onClick={() => navigate(`edit-meal/${a.foodId}`)}>
-        Edit
+      <div className="mealEdit">
+        <span onClick={() => navigate(`edit-meal/${a.foodId}`)}> Edit </span>
         <button className="delete-item" onClick={() => deleteFood(a.foodId)}>
           Delete
         </button>

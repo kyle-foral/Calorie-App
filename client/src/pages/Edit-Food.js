@@ -23,9 +23,6 @@ export default function Editmeal(foodId) {
     getData2();
   }, [foodId]);
 
-  // console.log(foodId)
-  // console.log(mealDescription)
-
   async function handleSubmit(event) {
     event.preventDefault();
     try {
