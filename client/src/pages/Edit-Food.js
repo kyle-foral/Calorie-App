@@ -50,7 +50,7 @@ export default function Editmeal(foodId) {
       console.error('Error:', error);
     }
   }
-
+  /* <span onClick={() => navigate(`edit-meal/${a.foodId}`)}> Edit </span> */
   return (
     <main className="create-new-meal">
       <h2> Edit Meal </h2>

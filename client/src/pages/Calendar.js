@@ -28,7 +28,6 @@ export default function Calendar() {
     <li key={a.foodId} className="row-meal">
       {a.mealDescription}
       <div className="mealEdit">
-        <span onClick={() => navigate(`edit-meal/${a.foodId}`)}> Edit </span>
         <button className="delete-item" onClick={() => deleteFood(a.foodId)}>
           Delete
         </button>
