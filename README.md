@@ -23,7 +23,7 @@ Here is a link to **Meal-Planner**:
 - Add custom Meal plan
 - Calorie calculator
 - Sign Up/Sign in
-- Edit Basal metabolic rate(BMR)
+- View Basal metabolic rate(BMR)
 - Delete meal plans
 
 Using the add meal: ![image](https://github.com/kyle-foral/Calorie-App/assets/126129416/d044d310-552a-463f-875d-dd61c1bab544)
