@@ -1,12 +1,10 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import deleteFood from './Delete-Food';
 
 export default function Calendar() {
   const [dayId, setDayId] = useState('Sunday');
   const [displayed, setDisplayed] = useState([]);
-  const navigate = useNavigate();
 
   useEffect(() => {
     async function getData() {
