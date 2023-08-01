@@ -1,29 +1,35 @@
-# final-project
+# Meal-Planner
 
-A full stack JavaScript solo project.
+A dynamic HTML, CSS, and React solo project.
 
-## Getting Started
+I built this project so users interested in createing a custom meal plan for the week. 
 
----
+Here is a link to **Meal-Planner**:
 
-### Use this template to create a new repo on your GitHub account
+[Meal-Planner](https://food-planner.kforal.com/calculator)
 
-1. Click the green `Use this template` button, select `Create a new repository`
-   1. Under `Owner` select your username
-   1. Give your repository a name
-   1. (Optional) Add a description
-   1. Leave repository as `Public`
-   1. **DO NOT** Include all branches
-   1. Click the green `Create repository from template` button
+**Technologies used:**
+- HTML
+- CSS
+- JavaScript
+- React
+- Argon2
+- Express
+- Webpack
+- pg
 
----
+**Features:**
 
-### Clone Newly created repo into `lfz-code`
+- Add custom Meal plan
+- Calorie calculator
+- Sign Up/Sign in
+- Edit Basal metabolic rate(BMR)
+- Delete meal plans
 
-1. From your newly created repo on GitHub, click the green `<> Code` button, then copy **SSH** URL
-1. Open `lfz-code`, click on blue `><` button in bottom left of `lfz-code`
-   1. Select `Clone Repository in Container Volume...`
-   1. Paste **SSH** URL for your repo, click `Clone git repository from URL`
+Using the add meal: ![image](https://github.com/kyle-foral/Calorie-App/assets/126129416/d044d310-552a-463f-875d-dd61c1bab544)
+
+Viewing the meal in your weekly planner: ![image](https://github.com/kyle-foral/Calorie-App/assets/126129416/f60aa579-901b-4aa6-a29c-b0f1f92fe742)
+
 
 ---
 
